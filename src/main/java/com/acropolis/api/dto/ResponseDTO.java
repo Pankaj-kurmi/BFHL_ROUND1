@@ -1,17 +1,28 @@
 package com.acropolis.api.dto;
 
 import java.util.List;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ResponseDTO {
+    @JsonProperty("is_success")
     private boolean is_success;
+    @JsonProperty("user_id")
     private String user_id;
+    @JsonProperty("email")
     private String email;
+    @JsonProperty("roll_number")
     private String roll_number;
+    @JsonProperty("odd_numbers")
     private List<String> odd_numbers;
+    @JsonProperty("even_numbers")
     private List<String> even_numbers;
+    @JsonProperty("alphabets")
     private List<String> alphabets;
+    @JsonProperty("special_characters")
     private List<String> special_characters;
+    @JsonProperty("sum")
     private String sum;
+    @JsonProperty("concat_string")
     private String concat_string;
 
     public ResponseDTO(boolean is_success, String user_id, String email, String roll_number,
@@ -29,7 +40,7 @@ public class ResponseDTO {
         this.concat_string = concat_string;
     }
 
-    public boolean isIs_success() {
+    public boolean is_success() {
         return is_success;
     }
 
