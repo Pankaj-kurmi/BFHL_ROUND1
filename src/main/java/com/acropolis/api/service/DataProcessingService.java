@@ -34,9 +34,9 @@ public class DataProcessingService {
         }
 
         String concatString = alternatingCaps(reverseAlphabets.toString());
-        String userId = "john_doe_17091999";
-        String email = "john@xyz.com";
-        String rollNumber = "ABCD123";
+        String userId = "pankaj_kurmi_14082004";
+        String email = "pankajkurmi230568@acropolis.in";
+        String rollNumber = "0827AL231088";
 
         return new ResponseDTO(true, userId, email, rollNumber, oddNumbers, evenNumbers, 
                               alphabets, specialCharacters, String.valueOf(sum), concatString);
