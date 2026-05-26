@@ -25,9 +25,9 @@ Spring Boot REST API that processes an array and returns categorized data.
 ```json
 {
   "is_success": true,
-  "user_id": "john_doe_17091999",
-  "email": "john@xyz.com",
-  "roll_number": "ABCD123",
+  "user_id": "pankaj_kurmi_14082004",
+  "email": "pankajkurmi230568@acropolis.in",
+  "roll_number": "0827AL231088",
   "odd_numbers": ["1"],
   "even_numbers": ["334", "4"],
   "alphabets": ["A", "R"],
@@ -37,13 +37,4 @@ Spring Boot REST API that processes an array and returns categorized data.
 }
 ```
 
-## Setup & Run
-
-1. Clone the repository
-2. Run: `mvn clean install`
-3. Run: `mvn spring-boot:run`
-4. API will be available at `http://localhost:8080/bfhl`
-
-## Deploy
-- Supports Railway, Render, Heroku, and other platforms
-- Connect your GitHub repo and deploy
+y
